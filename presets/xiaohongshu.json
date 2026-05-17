@@ -1,0 +1,23 @@
+{
+  "name": "小红书",
+  "description": "小红书视频 1080x1440 (3:4)",
+  "platform": "xiaohongshu",
+  "video": {
+    "codec": "libx264",
+    "crf": 23,
+    "preset": "medium",
+    "width": 1080,
+    "height": 1440,
+    "fps": 30
+  },
+  "audio": {
+    "codec": "aac",
+    "bitrate": "128k"
+  },
+  "constraints": {
+    "max_file_size": "5GB",
+    "max_duration": "15分钟",
+    "aspect_ratio": "3:4 或 9:16",
+    "recommended_format": "MP4"
+  }
+}

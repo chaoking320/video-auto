@@ -1,0 +1,23 @@
+{
+  "name": "视频号",
+  "description": "微信视频号 1080x1920 (9:16)",
+  "platform": "videohao",
+  "video": {
+    "codec": "libx264",
+    "crf": 23,
+    "preset": "medium",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "audio": {
+    "codec": "aac",
+    "bitrate": "128k"
+  },
+  "constraints": {
+    "max_file_size": "1GB",
+    "max_duration": "30分钟",
+    "aspect_ratio": "9:16",
+    "recommended_format": "MP4"
+  }
+}
